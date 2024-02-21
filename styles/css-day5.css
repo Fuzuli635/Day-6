@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Istok Web", sans-serif;
+}
+.heading {
+  width: 85%;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.heading-span {
+  font-size: 14px;
+  color: #2c7ae7;
+  font-weight: 400;
+}
+.heading-h2 {
+  font-weight: 900;
+  font-size: 2.5rem;
+  margin-top: 10px;
+  font-family: "Montserrat, sans-serif";
+  color: #3b3b44;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.card {
+  position: relative;
+  background-color: #ffffff;
+  border-radius: 10px;
+  overflow: hidden;
+  color: #303036;
+  height: 320px;
+  padding: 2rem 1.5rem;
+  transition: all 0.25s;
+  width: 350px;
+  border: 1px solid #d9d9de;
+  margin-top: 35px;
+}
+.card:hover {
+  box-shadow: 0 0 15px #d9d9de;
+}
+.cardtitle {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 1.5rem;
+}
+.card-name {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.card-info {
+  color: #63636b;
+  width: 300px;
+  line-height: 25px;
+}
+.btn-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 65px;
+}
+.btn {
+  width: 250px;
+  background: linear-gradient(to right, #568ad3 0, #0f58bd 100%);
+  color: white;
+  padding: 15px 22px;
+  cursor: pointer;
+  border: 1px #917cddec solid;
+  border-radius:8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
