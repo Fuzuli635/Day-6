@@ -38,6 +38,9 @@
   align-items: center;
   gap: 15px;
 }
+.meta span{
+  color: rgb(132, 133, 135);
+}
 .card-text {
   color: rgb(132, 133, 135);
   line-height: 23px;
