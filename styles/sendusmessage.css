@@ -1,0 +1,127 @@
+body {
+  font-family: "Arial, sans-serif";
+}
+.border {
+  border: 1px solid #e6e6e6;
+}
+.size {
+  width: 50%;
+}
+.width {
+  width: 100%;
+}
+.pl {
+  padding-left: 70px;
+}
+.pr {
+  padding-right: 70px;
+}
+.pb {
+  padding-bottom: 70px;
+}
+.pt {
+  padding-top: 55px;
+}
+form h4 {
+  font-family: "Poppins-Regular";
+  font-size: 24px;
+  color: #333;
+  text-align: center;
+  padding-bottom: 30px;
+  font-weight: 400;
+  margin-top: 60px;
+}
+.input-container {
+  position: relative;
+  border: 1px solid #e6e6e6;
+  border-radius: 2px;
+  margin-bottom: 20px;
+}
+.input-container input {
+  border: none;
+  width: 100%;
+  height: 50px;
+  font-family: "Poppins-Regular";
+  font-size: 13px;
+  color: #333;
+  padding-right: 30px;
+  padding-left: 62px;
+}
+.input-container img {
+  position: absolute;
+  top: 15px;
+  left: 28px;
+  vertical-align: middle;
+}
+.text-area-container {
+  border: 1px solid #e6e6e6;
+  border-radius: 2px;
+  margin-bottom: 30px;
+}
+.text-area-container textarea {
+  width: 100%;
+  min-height: 199px;
+  font-family: "Poppins-Regular";
+  font-size: 13px;
+  color: #333;
+  padding: 25px 28px;
+  border: none;
+}
+button {
+  background-color: #222;
+  color: #fff;
+  width: 100%;
+  border-radius: 23px;
+  padding: 10px;
+  cursor: pointer;
+  transition: 1s;
+}
+button:hover {
+  background-color: #717fe0;
+  color: #fff;
+  border-color: #717fe0;
+}
+.second-col-6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px 93px;
+  height: 100%;
+}
+.address-container {
+  width: 100%;
+  padding-bottom: 40px;
+}
+.address-container p {
+  max-width: 245px;
+  margin-top: 20px;
+  line-height: 25px;
+  color: #888;
+  padding-bottom: 20px;
+}
+.address-container span {
+  color: #333;
+  font-size: 20px;
+  font-family: "Poppins-Regular";
+}
+.contact {
+  color: #717fe0;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.sale-support {
+  margin-top: 40px;
+  color: #333;
+  font-size: 20px;
+  font-family: "Poppins-Regular";
+}
+.lets-talk {
+  font-size: 20px;
+  font-family: "Poppins-Regular";
+}
+.border {
+  border: 1px solid #ede9e9;
+}
+i {
+  color: #b7b2b2;
+}
