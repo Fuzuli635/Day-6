@@ -2,7 +2,6 @@
   width: 85%;
   max-width: 1140px;
   margin: 0 auto;
-  /* border: 1px solid #666666; */
 }
 
 .row {
@@ -10,7 +9,9 @@
   margin-left: -15px;
   margin-right: -15px;
 }
-
+.aligin-items-center{
+  align-items: center;
+}
 .d-flex {
   display: flex;
 }
