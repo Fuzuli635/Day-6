@@ -52,10 +52,7 @@ header p {
 .department-img img {
   filter: grayscale(100%);
   transition: 0.5s;
-  -webkit-transition: 0.5s;
-  -moz-transition: 0.5s;
-  -ms-transition: 0.5s;
-  -o-transition: 0.5s;
+  
 }
 .department-img img:hover {
   filter: brightness();
