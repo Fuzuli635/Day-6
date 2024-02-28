@@ -1,32 +1,44 @@
-let persons = [
-  { name: "Fuzuli", age: 29 },
-  { name: "Anar", age: 25 },
-  { name: "Elmira", age: 20 },
-  { name: "Nergiz", age: 21 },
-  { name: "Yaver", age: 22 },
-  { name: "Metin", age: 18 },
-  { name: "Ismayil", age: 19 },
-];
+// let persons = [
+//   { name: "Fuzuli", age: 29 },
+//   { name: "Anar", age: 25 },
+//   { name: "Elmira", age: 20 },
+//   { name: "Nergiz", age: 21 },
+//   { name: "Yaver", age: 22 },
+//   { name: "Metin", age: 18 },
+//   { name: "Ismayil", age: 19 },
+// ];
 
-let str = "fuzuli";
-let obj = {
-  f: 1,
-  u: 2,
-  z: 1,
-  l: 1,
-  i: 1
-}
-let newArr = str.split("");
-let letterCount = newArr.reduce((obj, letter) => {
-  if (obj[letter]) {
-    obj[letter] += 1;
-  }
-  obj[letter] = 1;
-  return obj;
-},{})
-console.log(obj);
+// let str = "fuzuli";
+// let obj = {
+//   f: 1,
+//   u: 2,
+//   z: 1,
+//   l: 1,
+//   i: 1
+// }
+// let newArr = str.split("");
+// let letterCount = newArr.reduce((obj, letter) => {
+//   if (obj[letter]) {
+//     obj[letter] += 1;
+//   }
+//   obj[letter] = 1;
+//   return obj;
+// },{})
+// console.log(obj);
 // let num1 = [1, 2, 3, 4];
 // let num2 = [1, 2, 3, 4];
+
+// let postTime = "2023-2-27 2:20:00";
+// let now = new Date().getTime();
+// let postStamp = new Date(postTime).getTime();
+// let diff = now - postStamp;
+// console.log(diff / (1000 * 60 * 60 * 24));
+
+let postTime = "2023-2-27 2:21:00";
+let now = new Date().getTime();
+let postStamp = new Date(postTime).getTime();
+let diff = now - postStamp;
+console.log(diff / (1000 * 60 * 60 * 24));
 
 // console.log(num1.toString() === num2.toString());
 // let students = persons.filter((student) => student.age > 20);

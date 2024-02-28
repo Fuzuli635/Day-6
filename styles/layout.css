@@ -9,14 +9,14 @@
   margin-left: -15px;
   margin-right: -15px;
 }
-.aligin-items-center{
+.aligin-items-center {
   align-items: center;
 }
 .d-flex {
   display: flex;
 }
 
-.flex-column{
+.flex-column {
   flex-direction: column;
 }
 .d-none {
@@ -33,7 +33,9 @@
 .justify-content-center {
   justify-content: center;
 }
-
+.text-center {
+  text-align: center;
+}
 .col-1 {
   width: calc(100% / 12 * 1);
 }
